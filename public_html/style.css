@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Boogaloo);
+/*    font-family: 'Acme', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    font-size: 18px;
+    transition: all ease-in-out 3s;
+}
+html{    
+    width: 100%;
+    height: 400%;
+    background-color: black;
+    background-image: url('overlay.png');
+    z-index: 999;
+}
+body{
+    height: 100%;
+    border: 2px solid red;    
+}
+
+
+/*.bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto;        
+    z-index: -1000;
+    background-size: cover; 
+}*/
+#menu{        
+    width: 100%;
+    border-top: 2px solid white;
+    text-align: center;  
+    color: white;
+}
+.nav{
+    
+    height: 100px;
+    
+    transition: all ease-in-out 800ms;
+}
+.menu-fixo {
+    position: fixed;
+    top: 0;
+    background: white;
+    color: red;
+    font-size: 20px;
+    height: 50px;
+    border: 2px solid green;
+    color: black;
+    border-radius: 20px;
+}
+.meia {   
+    height: 50%;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;    
+}
+h2{
+    margin-top: 20px;
+    color: white;
+    font-size: 8vw;
+    text-align: center;
+    font-family: 'Boogaloo', cursive;    
+    text-shadow:red 0.5px -0.5px, black -0.5px 0.5px, black 0.5px 0.5px, black -0.5px -0.5px;
+}
+.meia p{
+    text-shadow:red 0.5px -0.5px, red -0.5px 0.5px, red 0.5px 0.5px, red -0.5px -0.5px;
+    font-size: 26px;
+    color: white;
+}
+
+.content{
+    height: 25%;
+    /*    background-image: url('img/festa.jpg');*/
+    background-attachment: fixed;
+}
+
+.page-1, .page-2, .page-3, .page-4{
+    height: 100%;
+    border: 4px solid red;
+    transition: all ease-in-out 3s;
+}
+
+.page-1{
+    border: 4px solid red;
+    /*    background-color:rgba(0,0,0,0.7);*/
+    height: 90%
+        /*        url('overlay.png')*/
+
+}
+.page-2{
+    /*    background-color: green;*/
+}
+.page-3{
+    /*    background-color: yellow;*/
+}
+.page-4{
+    /*    background-color: blue;*/
+}
+.navg{
+    top: 40%;
+    right: 1%;
+    position: fixed;        
+}
+.btn-nav{
+    display: list-item;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin-bottom: 15px;
+    color: transparent;
+}
+.btn-nav:hover{
+    background-color: rgba(255,255,255,0.7);    
+}
+.active{
+    background-color: white;
+}
+.back{
+    background: tomato;
+}
+.back2{
+    background: green;
+}
+
+
+
+
